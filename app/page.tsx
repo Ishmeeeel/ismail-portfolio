@@ -23,31 +23,30 @@ export default function Home() {
           ))}
         </ul>
       </nav>
-
+      
+      <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-
-      {/* Main Branding Container */}
-      <div className="animate-fade-in mt-4">
-          <h2 className="text-sm text-zinc-500 leading-relaxed max-w-lg mx-auto">
-            My Name is 
-          </h2>
-        
-        <h1 className="py-2 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
+      
+      <div className="z-10 text-center">
+        <h2 className="text-sm text-zinc-500 mb-2 animate-fade-in">
+          My Name is
+        </h2>
+        <h1 className="py-3.5 px-0.5 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
           Ismail Usman
         </h1>
-
-        <div className="animate-fade-in mt-4">
-          <h2 className="text-sm text-zinc-500 leading-relaxed max-w-lg mx-auto">
-            I build the Logic (<b>Models</b>), run the infrastructure (<b>Cloud</b>), and work with the intelligence (<b>AI</b>)
-          </h2>
-        </div>
       </div>
 
-      {/* Subtle bottom spacer to maintain overall balance */}
-      <div className="mt-24" />
+      <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      
+      <div className="my-13 text-center animate-fade-in">
+        <h2 className="text-sm text-zinc-500">
+          I build the logic (<b>Models</b>), run the infrastructure (<b>Cloud</b>), and work with the intelligence (<b>AI</b>)
+        </h2>
+      </div>
     </div>
   );
 }
