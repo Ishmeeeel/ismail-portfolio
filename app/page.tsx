@@ -30,10 +30,10 @@ export default function Home() {
       />
 
       {/* Main Branding Container */}
-      <div className="z-10 text-center px-4">
-        <h2 className="text-sm text-zinc-500 animate-fade-in tracking-widest uppercase">
-          My Name is
-        </h2>
+      <div className="animate-fade-in mt-4">
+          <h2 className="text-sm text-zinc-500 leading-relaxed max-w-lg mx-auto">
+            My Name is 
+          </h2>
         
         <h1 className="py-2 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
           Ismail Usman
